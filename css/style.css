@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}
+
+#container-images {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1%;
+  padding: 3%;
+  width: 100%;
+}
+
+#trocar-imagem {
+  background-color: rgb(106, 205, 255);
+  border-radius: 10px;
+  width: 100px;
+  transition: transform 0.2s;
+  cursor: pointer;
+  position: relative;
+  margin-top: 30%;
+}
+
+#trocar-imagem:hover {
+  transform: scale(1.1);
+}
+
+#imagem1 {
+  width: 30%;
+  position: absolute;
+  border-radius: 10px;
+}
+
+#imagem2 {
+  width: 30%;
+  position: absolute;
+  border-radius: 10px;
+}
